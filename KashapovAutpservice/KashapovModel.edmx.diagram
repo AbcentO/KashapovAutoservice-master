@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="337d4150a1ec491b85d97209d813b64b" Name="Diagram1">
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.Client" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.ClientService" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.DocumentByService" Width="1.5" PointX="8" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.Gender" Width="1.5" PointX="1.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.Service" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.ServicePhoto" Width="1.5" PointX="8" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kashapov_autoserviceModel.Tag" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_Client2_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_ClientService_Client1" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_DocumentByService_Service2" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="Kashapov_autoserviceModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
